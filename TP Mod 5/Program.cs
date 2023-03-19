@@ -1,11 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-internal class Program
+
+public class HaloGeneric
 {
-    public class HaloGeneric
+    public static void sapaUser<T>(T inputuser)
     {
-        public static void sapaUser<T>(T inputuser)
-        {
-            Console.WriteLine("Hallo user " + inputuser);
-        }
+        Console.WriteLine("Hallo user " + inputuser);
     }
 }
